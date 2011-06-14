@@ -8,6 +8,7 @@ Source0:	http://ext3grep.googlecode.com/files/%{name}-%{version}.tar.gz
 # Source0-md5:	38e134734d6c8856370ed00a9c73dbee
 URL:		http://code.google.com/p/ext3grep/
 BuildRequires:	e2fsprogs-devel
+BuildRequires:	libstdc++-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
